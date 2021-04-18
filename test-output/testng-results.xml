@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Telecom" duration-ms="64433" started-at="2021-04-18T18:07:37Z" finished-at="2021-04-18T18:08:41Z">
+    <groups>
+    </groups>
+    <test name="UIValidation" duration-ms="24743" started-at="2021-04-18T18:07:37Z" finished-at="2021-04-18T18:08:02Z">
+      <class name="com.telecom.test.HomeScreenUIValidation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.telecom.test.HomeScreenUIValidation@4ae82894]" name="setup" is-config="true" duration-ms="21403" started-at="2021-04-18T23:37:37Z" finished-at="2021-04-18T23:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="HomeScreenValidation()[pri:0, instance:com.telecom.test.HomeScreenUIValidation@4ae82894]" name="HomeScreenValidation" duration-ms="434" started-at="2021-04-18T23:37:59Z" finished-at="2021-04-18T23:37:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Pay Billingg] but found [Pay Billing]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Pay Billingg] but found [Pay Billing]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.telecom.test.HomeScreenUIValidation.HomeScreenValidation(HomeScreenUIValidation.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeScreenValidation -->
+        <test-method status="PASS" signature="tdown()[pri:0, instance:com.telecom.test.HomeScreenUIValidation@4ae82894]" name="tdown" is-config="true" duration-ms="1692" started-at="2021-04-18T23:38:00Z" finished-at="2021-04-18T23:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tdown -->
+      </class> <!-- com.telecom.test.HomeScreenUIValidation -->
+    </test> <!-- UIValidation -->
+    <test name="AddCustomer" duration-ms="22684" started-at="2021-04-18T18:08:03Z" finished-at="2021-04-18T18:08:25Z">
+      <class name="com.telecom.test.AddCustomerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.telecom.test.AddCustomerTest@1cab0bfb]" name="setup" is-config="true" duration-ms="8993" started-at="2021-04-18T23:38:03Z" finished-at="2021-04-18T23:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.telecom.test.AddCustomerTest@1cab0bfb]" name="addCustomer" duration-ms="6322" started-at="2021-04-18T23:38:17Z" data-provider="getCustomerData" finished-at="2021-04-18T23:38:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vaishak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hunasamaranahalli Bangalore]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[firstname@email.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9988776655]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="tdown()[pri:0, instance:com.telecom.test.AddCustomerTest@1cab0bfb]" name="tdown" is-config="true" duration-ms="2244" started-at="2021-04-18T23:38:23Z" finished-at="2021-04-18T23:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tdown -->
+      </class> <!-- com.telecom.test.AddCustomerTest -->
+    </test> <!-- AddCustomer -->
+    <test name="AddTariffPlans" duration-ms="16075" started-at="2021-04-18T18:08:25Z" finished-at="2021-04-18T18:08:41Z">
+      <class name="com.telecom.test.AddTariffPlansTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.telecom.test.AddTariffPlansTest@71d15f18]" name="setup" is-config="true" duration-ms="9988" started-at="2021-04-18T23:38:25Z" finished-at="2021-04-18T23:38:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addTariffPlansTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.telecom.test.AddTariffPlansTest@71d15f18]" name="addTariffPlansTest" duration-ms="4577" started-at="2021-04-18T23:38:35Z" data-provider="getTariffData" finished-at="2021-04-18T23:38:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1499]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTariffPlansTest -->
+        <test-method status="PASS" signature="tdown()[pri:0, instance:com.telecom.test.AddTariffPlansTest@71d15f18]" name="tdown" is-config="true" duration-ms="1464" started-at="2021-04-18T23:38:40Z" finished-at="2021-04-18T23:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tdown -->
+      </class> <!-- com.telecom.test.AddTariffPlansTest -->
+    </test> <!-- AddTariffPlans -->
+  </suite> <!-- Telecom -->
+</testng-results>

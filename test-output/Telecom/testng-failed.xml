@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Telecom]">
+  <listeners>
+    <listener class-name="com.telecom.utility.Listeners"/>
+  </listeners>
+  <test name="UIValidation(failed)">
+    <classes>
+      <class name="com.telecom.test.AddTariffPlansTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tdown"/>
+        </methods>
+      </class> <!-- com.telecom.test.AddTariffPlansTest -->
+      <class name="com.telecom.test.HomeScreenUIValidation">
+        <methods>
+          <include name="setup"/>
+          <include name="HomeScreenValidation"/>
+          <include name="tdown"/>
+        </methods>
+      </class> <!-- com.telecom.test.HomeScreenUIValidation -->
+      <class name="com.telecom.test.AddCustomerTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tdown"/>
+        </methods>
+      </class> <!-- com.telecom.test.AddCustomerTest -->
+    </classes>
+  </test> <!-- UIValidation(failed) -->
+</suite> <!-- Failed suite [Telecom] -->

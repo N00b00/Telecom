@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Telecom">
+<listeners>
+		<listener class-name="com.telecom.utility.Listeners" />
+	</listeners>
+	<test name="UIValidation">
+		<classes>
+			<class name="com.telecom.test.HomeScreenUIValidation" />
+		</classes>
+	</test>
+	<test name="AddCustomer">
+		<classes>
+			<class name="com.telecom.test.AddCustomerTest" />
+		</classes>
+	</test>
+	<test name="AddTariffPlans">
+		<classes>
+			<class name="com.telecom.test.AddTariffPlansTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
